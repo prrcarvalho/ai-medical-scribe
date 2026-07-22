@@ -11,7 +11,7 @@
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/code-review/SKILL.md",
-      "computedHash": "31d149a480eaa68c11e32f5ee77f0fd0b98a906834d531d881d502352edd0b8e"
+      "computedHash": "3188de6ad586bf8d60c332d082cf698dd99c8bb4f94910f2df14bbb6d21e54c0"
     },
     "diagnosing-bugs": {
       "source": "mattpocock/skills",
@@ -59,7 +59,7 @@
       "source": "mattpocock/skills",
       "sourceType": "github",
       "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
-      "computedHash": "74e894a3509e2676d4cdb771c8eace087092430635e845e02a9cc2f757c552a4"
+      "computedHash": "796315772baeeaedeb35197ad7ec4d84546f8308d10ea51f5fd68dfcbaae7873"
     },
     "tdd": {
       "source": "mattpocock/skills",
