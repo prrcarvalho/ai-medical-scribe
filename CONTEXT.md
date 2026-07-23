@@ -25,12 +25,20 @@ A Draft Clinical Diary deliberately saved as `Por concluir` so the clinician can
 _Avoid_: Closed diary, approved diary
 
 **Approved Clinical Diary**:
-The clinician-approved version of a Clinical Diary, eligible for manual copying and for inheritance as chronological context by later Clinical Diaries in the same confirmed Emergency Episode.
-_Avoid_: Draft, generated diary
+The clinician-approved version of a Clinical Diary, eligible for manual copying and for inheritance as chronological context by later Clinical Diaries in the same confirmed Emergency Episode. Its historical assertions do not automatically become current facts in those later diaries.
+_Avoid_: Draft, generated diary, automatically current history
 
 **Diary Amendment**:
-An explicitly timestamped correction or addendum linked to an Approved Clinical Diary after approval or copying. It preserves the original rather than silently overwriting it.
-_Avoid_: Silent edit, replacement diary
+An explicitly timestamped correction or addendum linked to an Approved Clinical Diary after approval or copying. It preserves the original rather than silently overwriting it; for the specific topic it clearly corrects, later Clinical Diaries use the amended meaning as the current authority.
+_Avoid_: Silent edit, replacement diary, whole-diary replacement
+
+**Open Clinical Question**:
+A doubt or unresolved clinical matter that the clinician explicitly leaves open when approving a Clinical Diary, such as a condition still to exclude or a result still awaited. It remains active follow-up context for later Clinical Diaries in the same confirmed Emergency Episode until the clinician explicitly resolves or dismisses it. A confirmed action, such as an examination already ordered, is not an Open Clinical Question merely because its outcome will occur later.
+_Avoid_: Inferred omission, generic pending task, confirmed clinical action
+
+**Clinical Analysis**:
+A separate model-generated decision-support artifact that independently reviews the original evidence of an Emergency Episode. It may present differential diagnoses, supporting and contradicting evidence, important alternatives, missing information, uncertainty, and examination trade-offs, but it never automatically modifies or blocks a Clinical Diary; the clinician retains final authority.
+_Avoid_: Clinical Diary, confirmed diagnosis, autonomous clinical decision
 
 **Recording**:
 A clinician-controlled audio source for a Clinical Diary, composed of one or more ordered Recording Segments. Pausing or interruption does not create a separate Recording.
